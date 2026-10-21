@@ -1,0 +1,20 @@
+{
+  "name": "iot-environment-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/dashboard"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace apps/api\" \"npm run dev --workspace apps/dashboard\"",
+    "dev:api": "npm run dev --workspace apps/api",
+    "dev:dashboard": "npm run dev --workspace apps/dashboard",
+    "dev:ai": "cd apps/ai-service && uvicorn src.main:app --reload --port 8000",
+    "build": "npm run build --workspace apps/api && npm run build --workspace apps/dashboard",
+    "lint": "npm run lint --workspace apps/api && npm run lint --workspace apps/dashboard"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
