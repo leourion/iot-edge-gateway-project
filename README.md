@@ -450,11 +450,8 @@ Khi mới cài, hãy đặt username/mật khẩu của riêng bạn (bắt bu�
 
 ## 👨‍💻 Thành viên
 
-* [CẦN BỔ SUNG]
-
-## 📄 License
-
-Dự án chưa có file `LICENSE` trong repository — chưa xác định license. [CẦN BỔ SUNG: chọn license trước khi publish lên GitHub]
+* Leo_Urion
+- Duy_khánh
 
 ---
 
@@ -471,5 +468,3 @@ Dự án chưa có file `LICENSE` trong repository — chưa xác định licens
 - **Không dùng tải điện lưới**: sơ đồ relay demo dùng quạt DC 5V. **Không** dùng mạch này đóng cắt 220V.
 - **`.env.example` có dòng `[TEMPLATE]`** ở đầu file — bỏ dòng này khi copy sang `.env`.
 - **Route `/monitor` hiển thị dữ liệu mô phỏng** khi API chưa có reading (nhãn "Preview"); route `/dashboard` thì không bao giờ hiển thị dữ liệu giả.
-#   i o t - e d g e - g a t e w a y - p r o j e c t  
- 
